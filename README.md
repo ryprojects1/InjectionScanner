@@ -20,3 +20,9 @@ Running Scan on: malicious.html
  Event logged to security_audit.log
 Found 4 suspicious fragments: ['ignore', 'previous', 'instead', 'leak']
  HIGH RISK: Sharded Prompt Injection detected (Score: 4)
+### Future improvements
+
+- Support more file types
+- Web interface
+- Live AI integration testing
+
