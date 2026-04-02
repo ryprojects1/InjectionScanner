@@ -16,3 +16,7 @@ As AI becomes more common, tools like mine are increasingly important
 - command to run: `python3 CheckSharded.py`
 
 ### Example: (After scanned result)
+Running Scan on: malicious.html 
+ Event logged to security_audit.log
+Found 4 suspicious fragments: ['ignore', 'previous', 'instead', 'leak']
+ HIGH RISK: Sharded Prompt Injection detected (Score: 4)
