@@ -1,6 +1,6 @@
-# InjectionScanner
+# PromptGuard
 
-Injection scanner is a python tool to scan HTML files for prompt injection attacks
+PromptGuard is a python tool to scan HTML files for prompt injection attacks
 
 ### Function
 - scan files for suspicious fragments
