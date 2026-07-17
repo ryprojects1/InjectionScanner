@@ -1,0 +1,36 @@
+[2026-04-01 18:16:27] SCAN COMPLETED: malicious.html
+RISK SCORE: 4
+THREATS: ignore, previous, instead, leak
+------------------------------
+[2026-04-01 18:24:57] SCAN COMPLETED: malicious.html
+RISK SCORE: 4
+THREATS: ignore, previous, instead, leak
+------------------------------
+[2026-04-03 18:47:34] SCAN COMPLETED: malicious.html
+RISK SCORE: 4
+THREATS: ignore, previous, instead, leak
+------------------------------
+[2026-04-03 19:03:05] SCAN COMPLETED: malicious.html
+RISK SCORE: 4
+THREATS: ignore, previous, instead, leak
+------------------------------
+[2026-04-03 20:35:32] SCAN COMPLETED: malicious.html
+RISK SCORE: 4
+THREATS: ignore, previous, instead, leak
+------------------------------
+[2026-04-03 21:23:02] SCAN COMPLETED: malicious.html
+RISK SCORE: 4
+THREATS: ignore, previous, instead, leak
+------------------------------
+[2026-04-03 22:56:30] SCAN COMPLETED: malicious.html
+RISK SCORE: 4
+THREATS: ignore, previous, instead, leak
+------------------------------
+[2026-04-03 23:01:33] SCAN COMPLETED: malicious.html
+RISK SCORE: 4
+THREATS: ignore, previous, instead, leak
+------------------------------
+[2026-07-17 15:36:06] SCAN: manual_text_input
+RISK SCORE: 7
+THREATS: ignore, previous, system, instead, leak, system prompt, ignore previous
+------------------------------
