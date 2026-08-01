@@ -1,6 +1,31 @@
 import requests
 from bs4 import BeautifulSoup
-sus_words= ["ignore previous", "system prompt", "instead, do", "secret key"]
+sus_words = [
+    # Direct injection commands
+    "ignore previous", "ignore all", "disregard previous",
+    "forget previous", "override instructions", "bypass instructions",
+    "ignore instructions", "disregard instructions",
+    
+    # System prompt attacks
+    "system prompt", "initial prompt", "original instructions",
+    "reveal prompt", "show prompt", "print prompt",
+    
+    # Exfiltration attempts
+    "leak", "exfiltrate", "send to", "forward to",
+    "secret key", "api key", "password", "credentials",
+    
+    # Role manipulation
+    "you are now", "act as", "pretend to be", "roleplay as",
+    "jailbreak", "dan mode", "developer mode",
+    
+    # Sharded fragments
+    "ignore", "previous", "system", "instead",
+    "override", "bypass", "disregard", "forget",
+    
+    # Data extraction
+    "repeat after me", "say exactly", "output everything",
+    "print everything", "dump", "extract"
+]
 #sus phrases that python need to detect and raise alert to
 # 2. This is a "for loop" - it goes through the list one by one
 def injection_scanner(url):

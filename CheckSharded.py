@@ -9,8 +9,33 @@
 # A simple scanner looks for the whole phrase and misses it.
 from bs4 import BeautifulSoup
 from audit import log_security
-sus_words= ["ignore" , "previous", "system", "instead", "leak"]
-DANGER = 3
+sus_words = [
+    # Direct injection commands
+    "ignore previous", "ignore all", "disregard previous",
+    "forget previous", "override instructions", "bypass instructions",
+    "ignore instructions", "disregard instructions",
+    
+    # System prompt attacks
+    "system prompt", "initial prompt", "original instructions",
+    "reveal prompt", "show prompt", "print prompt",
+    
+    # Exfiltration attempts
+    "leak", "exfiltrate", "send to", "forward to",
+    "secret key", "api key", "password", "credentials",
+    
+    # Role manipulation
+    "you are now", "act as", "pretend to be", "roleplay as",
+    "jailbreak", "dan mode", "developer mode",
+    
+    # Sharded fragments
+    "ignore", "previous", "system", "instead",
+    "override", "bypass", "disregard", "forget",
+    
+    # Data extraction
+    "repeat after me", "say exactly", "output everything",
+    "print everything", "dump", "extract"
+]
+DANGER = 5
 def sharded_scan_local(file_path):
     print(f" Running Scan on: {file_path} ")
     try:
