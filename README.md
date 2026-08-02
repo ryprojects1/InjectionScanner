@@ -1,6 +1,7 @@
 # PromptGuard
 
 PromptGuard is a python tool to scan HTML files for prompt injection attacks
+[🔴 Live Demo](https://promptguard1.streamlit.app)
 
 ### What is Prompt Injection?
 Prompt injection is when adversaries hide malicious instructions inside meta tags or content where an AI agent will read it as a legitimate prompt and follow it blindly with no sense of security. This is a huge and growing problem — a successful attack can expose your personal details, credentials, and even banking information without you ever knowing.
