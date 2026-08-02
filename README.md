@@ -48,5 +48,5 @@ Run the app:
 Built By
 
 Ching Ho Wong | 1st Year Computer Science Student
-
+[GitHub](https://github.com/ryprojects1/PromptGuard)
 
